@@ -1,0 +1,29 @@
+body {
+  background-color: lightgreen;
+}
+
+header {
+  background: #000;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+header nav {
+  padding: 20px;
+  text-align: center;
+}
+header nav a {
+  color: #fff;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+#main-title {
+  background-color: #999;
+  height: 400px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 50px;
+  background-image: url(../images/titlebg.jpg);
+  background-size: cover;
+  /* filter: brightness(70%); */
+  color: #fff;
+}
