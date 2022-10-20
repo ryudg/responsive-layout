@@ -4,8 +4,6 @@ body {
 
 header {
   background: #000;
-  max-width: 1400px;
-  margin: 0 auto;
 }
 header nav {
   padding: 20px;
@@ -19,11 +17,25 @@ header nav a {
 #main-title {
   background-color: #999;
   height: 400px;
-  max-width: 1400px;
-  margin: 0 auto;
   padding: 50px;
   background-image: url(../images/titlebg.jpg);
   background-size: cover;
   /* filter: brightness(70%); */
   color: #fff;
+}
+
+main .container {
+  display: flex;
+}
+main .container article {
+  width: 50%;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 40px;
+}
+ul li {
+  margin-bottom: 10px;
+}
+main .container article:last-child {
+  background-color: #efefef;
 }
